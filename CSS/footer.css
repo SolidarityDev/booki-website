@@ -1,0 +1,14 @@
+.flex-footer li {
+  list-style-type: none;
+}
+
+.flex-footer a {
+  text-decoration: none;
+  color: #000000;
+  margin-top: 3%;
+}
+
+.flex-footer-details {
+  display: flex;
+  flex-direction: column;
+}

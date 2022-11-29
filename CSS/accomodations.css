@@ -1,0 +1,35 @@
+.accomodation-border {
+  margin-left: 2%;
+}
+
+.accomodation-border:hover {
+  cursor: pointer;
+}
+
+.accomodation-details {
+  margin-left: 5%;
+  margin-bottom: 0.1%;
+}
+
+.fa-chart-line {
+  color: #0065fc;
+  cursor: pointer;
+}
+
+.stars-popular-accomodations {
+  display: inline;
+  color: #0065fc;
+  font-size: 75%;
+}
+
+.stars-popular-accomodations .colorgrey {
+  color: #d6d1d1;
+  margin-top: 35px;
+}
+
+.accomodation-border:hover {
+  transform: scale(1.06);
+}
+.accomodation-popular-border:hover {
+  transform: scale(1.06);
+}

@@ -1,0 +1,15 @@
+#marseille-activities {
+  margin-top: 30px;
+}
+
+#activities-container p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#marseille-activities h2 {
+  margin-left: 4%;
+}
+.activity-border:hover {
+  transform: scale(1.07);
+}

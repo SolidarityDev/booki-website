@@ -1,0 +1,40 @@
+#no-space {
+  font-size: 0;
+}
+
+#no-space button:hover {
+  cursor: pointer;
+}
+
+/*city-search-bar*/
+
+.filters-icon {
+  display: flex;
+}
+
+.filters:hover {
+  background-color: #deebff;
+}
+
+.circle-icon {
+  border: #f2f2f2 solid 2px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  color: #0065fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+#information-section p {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #000000;
+}
