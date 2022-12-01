@@ -1,6 +1,9 @@
 .accomodation-border {
   margin-left: 2%;
 }
+.accomodation-picture {
+  object-fit: cover;
+}
 
 .accomodation-border:hover {
   cursor: pointer;
