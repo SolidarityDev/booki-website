@@ -2,6 +2,9 @@
   .fa-search {
     visibility: hidden;
   }
+  #logo-booki {
+    margin-top: 65px;
+  }
   /*top-navigation-buttons*/
   header img {
     width: 50px;
@@ -13,7 +16,7 @@
   header {
     display: flex;
     justify-content: space-between;
-    margin-top: -25px;
+    margin-top: -34.23px;
   }
 
   header .nav-flex {
@@ -50,8 +53,7 @@
     border: 9px solid #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     padding-left: 10px;
-    padding-top: 1px;
-    height: 22px;
+    height: 23px;
     width: 20px;
   }
   #search-bar {
@@ -59,7 +61,7 @@
     bottom: 1px;
     border: 1px solid #f2f2f2;
     width: 172px;
-    height: 41px;
+    height: 42px;
   }
   /*blue-button-search*/
   #search-bar-text {
@@ -325,13 +327,13 @@
     margin-top: 30px;
   }
   .flex-footer:nth-child(1) {
-    padding-right: 50px;
+    margin-left: -300px;
   }
   .flex-footer:nth-child(2) {
-    padding-right: 50px;
+    padding-left: 100px;
   }
   .flex-footer:nth-child(3) {
-    padding-right: 50px;
+    padding-left: 150px;
   }
   .flex-footer-details {
     margin: 55px;
@@ -648,7 +650,7 @@
   }
   #third-part-stars {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
   }
   .stars-popular-accomodations .colorblue {
     font-size: 90%;
@@ -1023,7 +1025,7 @@
   }
   #third-part-stars {
     position: relative;
-    top: 20px;
+    top: 3px;
   }
   #activities-container {
     display: flex;
@@ -1077,6 +1079,8 @@
     margin-bottom: 5%;
   }
   .flex-footer-details a {
+    position: relative;
     font-size: 13px;
+    top: -12px;
   }
 }
