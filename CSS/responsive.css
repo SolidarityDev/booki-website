@@ -360,15 +360,15 @@
   header {
     display: flex;
     justify-content: space-between;
-    margin-top: -25px;
+    margin-top: -34.23px;
   }
   header .nav-flex {
     padding: 36px;
+    border-top: solid 1.5px transparent;
   }
   header .nav-flex:hover {
     border-top: solid 1.5px #0065fc;
     color: #0065fc;
-    padding: 36px;
   }
   nav {
     display: flex;
@@ -1043,6 +1043,7 @@
   .picture-activity {
     width: 330px;
     height: 160px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     align-items: center;
@@ -1066,7 +1067,7 @@
     background: #f2f2f2;
     width: 100%;
     position: relative;
-    align-items: left;
+    align-items: flex-start;
     margin-top: 50px;
   }
 
