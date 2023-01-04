@@ -22,6 +22,7 @@
   header .nav-flex {
     padding: 36px;
     margin-right: 35px;
+    border-top: solid 1.5px transparent;
   }
   header .nav-flex:hover {
     border-top: solid 1.5px #0065fc;
