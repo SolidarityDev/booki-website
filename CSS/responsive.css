@@ -26,6 +26,13 @@ header img {
 h1 {
   font-size: 1.4em;
   max-width: 700px;
+  text-align: left;
+}
+.cities-search-bar {
+  margin-left: 50px;
+}
+.cities-search-bar p {
+  margin-bottom: 15px;
 }
 #logo-booki {
   margin-top: 65px;
@@ -59,7 +66,6 @@ form {
   margin-top: 5px;
   margin-bottom: -15px;
   max-width: 700px;
-  justify-content: space-between;
 }
 .fa {
   background: #f2f2f2;
@@ -71,7 +77,7 @@ form {
 }
 #search-bar {
   position: relative;
-  width: 100%;
+  width: 200px;
   bottom: 1px;
   border: 1px solid #f2f2f2;
   height: 42px;
@@ -144,14 +150,7 @@ form {
   font-size: 15px;
   color: #0065fc;
 }
-.filters-name {
-  position: relative;
-  font-size: 1.1em;
-  top: 16px;
-  left: 22px;
-  font-weight: bold;
-  margin-right: 40px;
-}
+
 .filters-section p {
   font-size: 17px;
   font-weight: bold;
@@ -189,11 +188,13 @@ form {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 15px;
-  width: 98%;
+  width: 100;
 }
 #first-article-background {
   padding-bottom: 20px;
   padding-top: 10px;
+  border-radius: 20px;
+  margin-right: 5%;
 }
 #all-accomodations-section h2 {
   font-size: 1.3em;
@@ -275,7 +276,7 @@ form {
 #accomodation-popular-border-flex {
   display: flex;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 #most-popular-accomodations h2 {
   font-size: 16px;
@@ -288,14 +289,15 @@ form {
   margin-bottom: 30px;
   display: flex;
   overflow: hidden;
-
+  padding-right: -20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
   transition: 0.7s;
   cursor: pointer;
   height: auto;
 }
 .title-data-logo {
-  width: 90%;
+  width: 100%;
+  margin-left: -10px;
 }
 .accomodation-popular-details {
   margin-left: 8px;
@@ -385,11 +387,19 @@ form {
 }
 @media screen and (min-width: 992px) {
   #all-accomodations-section {
-    width: 85%;
+    width: 100%;
   }
   header {
     display: flex;
     justify-content: space-between;
+  }
+  .filters-name {
+    position: relative;
+    font-size: 1.1em;
+    top: 16px;
+    left: 22px;
+    font-weight: bold;
+    margin-right: 40px;
   }
   .nav-flex {
     padding: 36px;
@@ -409,6 +419,9 @@ form {
     margin-left: 50px;
     background: #f2f2f2;
   }
+  #accomodations-container {
+    padding: 30px;
+  }
   .accomodation-border {
     width: 31.33%;
   }
@@ -416,7 +429,7 @@ form {
     margin-right: 4%;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 10%;
+    margin-left: 0%;
     width: 99%;
     bottom: 10px;
   }
@@ -491,11 +504,13 @@ form {
     border-top: solid 1.5px #0065fc;
     color: #0065fc;
   }
+
   .filters-name {
     font-size: 1em;
     top: 12px;
     left: 22px;
     margin-right: 40px;
+    font-weight: bold;
   }
   .filters {
     margin-right: 15px;
@@ -703,8 +718,7 @@ form {
     text-align: center;
   }
   .filters-name {
-    position: relative;
-    margin-right: 70%;
+    text-align: left;
   }
   /*container-search-bar*/
   #search-bar-container {
@@ -729,6 +743,10 @@ form {
   #search-bar-container form {
     display: flex;
     margin-top: 1px;
+    width: 100%;
+  }
+  #search-bar-container {
+    width: 100%;
   }
   .cities-search-bar {
     padding: 20px;

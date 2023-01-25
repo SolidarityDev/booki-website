@@ -1,6 +1,9 @@
 #no-space {
   font-size: 0;
 }
+#no-space-one {
+  font-size: 0;
+}
 
 #no-space button:hover {
   cursor: pointer;
